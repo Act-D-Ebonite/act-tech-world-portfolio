@@ -1,120 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta property="og:title" content="ACT Tech World | Frontend & Python Developer">
+
+    <meta property="og:description"
+    content="Official portfolio of Ajayi Comfort Tolulope showcasing responsive websites, web applications, and modern digital solutions.">
+
+    <meta property="og:image" content="images/portfolio-preview.png">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://your-domain.com">
+    
+    
+    <link rel="icon" type="image/png" href="IMAGE/favicon.png">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ACT TECH WORLD</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.html" />
-    <link rel="stylesheet" href="about.html" />
-    <style></style>
+    <title>ACT Tech World | Frontend & Python Developer Portfolio</title>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Official portfolio of Comfort Tolulope Ajayi (ACT Tech World), a Frontend & Python Developer passionate about building responsive websites, modern web applications, and digital solutions.">
+
+    <meta
+        name="keywords"
+        content="ACT Tech World, Comfort Tolulope Ajayi, Frontend Developer, Python Developer, Web Developer, Portfolio, HTML, CSS, JavaScript, Responsive Website, Product Manager">
+
+    <meta name="author" content="Comfort Tolulope Ajayi">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#0b0f1a">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+
+<style></style>
   </head>
 
   <body>
-    <h1>HELLO WORLD...WELCOME TO ACT WORLD</h1>
+    <!-- ================= PRELOADER ================= -->
+
+<div id="preloader">
+    <div class="loader-content">
+        <div class="loader-logo">ACT TECH WORLD</div>
+        <div class="loader-spinner"></div>
+        <p>Loading...</p>
+    </div>
+</div>
 
     <header>
-      <img src="IMAGE/logo.jpeg" alt="ACT TECH WORLD Logo" />
-      <h1>Hey 👋🏾, I'm Ajayi Comfort Tolulope</h1>
-      <p>Frontend & Python Developer | Founder, ACT TECH WORLD</p>
-      I build responsive React web apps,restaurant order dashboard,
-      user-friendly web landing pages, and dashboards.”
+      <nav>
+        <div class="logo">
+          <img src="/IMAGE/logo.jpg" alt="ACT Tech World logo">
+          <span>ACT Tech World</span>
+        </div>
 
-      <a href="#contact" class="btn">Contact Me</a>
-      <a href="#About" class="btn">About Me</a>
+         <div class="menu-toggle"><i class="fa-solid fa-bars"></i> </div>
+
+        <ul class="nav-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a> </li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button id="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+           <li class="mobile-hire"><a href="#contact">Hire Me</a></li>
+        </ul>
+          <a href="#contact" class="hire-btn"> Hire Me</a> 
+      </nav>
     </header>
 
-    <section id="about" class="about-section">
-      <div class="about-container">
+    <section class="hero" id="Home"> 
+      <div class="hero-text">
+        <h4>Hello 👋🏾, </h4>
+        <h1>I'm Ajayi Comfort Tolulope (ACT)</h1>
+        <h3><span id="typing-text"></span><span class="cursor">|</span></h3>
+        <P>I build responsive React web apps, restaurant order dashboard,
+          user-friendly interface, landing pages and dashboards.</P>
+
+        <div class="hero-btns">
+          <a href="#contact" class="btn">Contact Me</a>
+          <a href="#projects" class="btn-outline">View Projects</a>
+        </div>
+
+      </div>
+
+      <div class="hero-image">
+        <img src="/IMAGE/IMG_20260129_111332_418.jpg" alt="ACT">
+      </div>
+
+     
+     </section>
+
+    <section id="about" class="about hidden">
         <div class="about-image">
           <img src="IMAGE/img.me.jpeg" alt="My image" />
         </div>
-        <div class="about-text">
+
+        <div class="about-content">
           <h2>About Me</h2>
+          <h3>Web Developer</h3>
           <p>
-            I'm ACT, a passionate and innovative tech creative with a flair for
-            visual design and digital solutions. I specialize in branding, flyer
-            design, logo creation, and user-friendly interfaces that not only
-            look great but communicate clearly. My goal is to leverage my
-            expertise in web development and technology to create impactful,
-            user-friendly solutions.
+            Hi, I'm <strong>ACT,</strong> a passionate and innovative tech creative with a flair for
+            visual design and digital solutions.
+            I love creating responsive website, modern user interface and interactive web application that provide great user experiences.
           </p>
+
           <p>
-            I believe in blending creativity with purpose – crafting designs
-            that solve problems, tell stories, and connect with people. Whether
-            it's through sleek visuals or functional layouts, my goal is to help
-            brands and individuals stand out in today’s digital world.
+            I enjoy learning new technologies, solving problemand bringing ideas to lifethrough clean and efficient code. <br><strong>I CODE, CREATE, AND CONQUER.</strong>
           </p>
-          <p>
-            I'm currently building real-world experience, exploring new tools
-            and trends in the tech space. Every project is a new opportunity to
-            learn, improve, and create something meaningful. Let’s build
-            something extraordinary together.
-            <strong>I CODE, CREATE, AND CONQUER.</strong>
-          </p>
+
+          <div class="about-buttons">
+            <a href="#contact" class="btn">Let's Talk</a>
+            <a href="cv.pdf" class="btn2">Download cv</a>
+          </div>
+
         </div>
-      </div>
+
     </section>
 
-    <section id="vision">
-      <h2>Our Vision</h2>
-      <p>
-        At ACT TECH WORLD, our vision is to empower lives through technology,
-        inspire creativity, and lead with resilience in a rapidly evolving
-        digital world.
-      </p>
+    <section id="services" class="services hidden">
+
+        <h2 class="section-title">My Services</h2>
+        <p class="section-subtitle">
+            I provide creative and modern digital solutions to help individuals
+            and businesses grow online.
+        </p>
+
+        <div class="services-container">
+
+            <div class="service-card">
+                <h3>💻 Web Development</h3>
+                <p>Responsive and modern websites built with HTML, CSS, JavaScript and React.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🎨 Graphics Design</h3>
+                <p>Creative flyers, banners, social media designs and branding materials.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🖌 Logo Design</h3>
+                <p>Professional logos that represent your brand identity.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>📱 Responsive Design</h3>
+                <p>Websites that look beautiful on desktops, tablets and mobile phones.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🐍 Python Development</h3>
+                <p>Python solutions, automation scripts and backend development.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🚀 Website Revamp</h3>
+                <p>Upgrade outdated websites into modern, fast and user-friendly designs.</p>
+            </div>
+            <div class="service-card">
+                <h3>📊 Data Analytics</h3>
+                <p>Transforming raw data into meaningful insights for smarter business decision.</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <div class="skills">
-        <div class="skill-box">HTML</div>
-        <div class="skill-box">CSS</div>
-        <div class="skill-box">JavaScript</div>
-        <div class="skill-box">Responsive Design</div>
-        <div class="skill-box">Git & GitHub</div>
-        <div class="skill-box">Debugging</div>
-        <div class="skill-box">Python</div>
-      </div>
+    <section id="skills" class="skills hidden">
+    <h2>Technical Skills</h2>
+    <p class="section-text">
+        Technologies and tools I use to build modern web applications.
+    </p>
+
+    <div class="skills-container">
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>HTML5</span>
+            <span>95%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="95"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>CSS3</span>
+            <span>95%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="90"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>JavaScript</span>
+            <span>95%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="85"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>React</span>
+            <span>85%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="75"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Python</span>
+            <span>85%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="70"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-info">
+            <span>Git & GitHub</span>
+            <span>80%</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" data-progress="80"></div>
+        </div>
+    </div>
+
+</div>
     </section>
 
-    <section id="projects"></section>
+    <section id="projects" class="projects hidden">
 
-    <section id="services">
-      <h2>Our service include:</h2>
-      <div class="service-available">WEBSITE DEVELOPMENT</div>
-      <div class="service-available">LOGO DESIGN</div>
-      <div class="service-available">GRAPHICS DESIGN</div>
-      <div class="service-available">PYTHON</div>
-      <div class="service-available">WEBSITE REDESIGN AND REVAMP</div>
-      <div class="service-available">LANDING PAGE DESIGN</div>
-      <div class="service-available">CUSTOM DESIGNS AND MORE</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+            A selection of projects I've built while sharpening my frontend development skills.
+        </p>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+         <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="IMAGE/to do.png" alt="To-Do List">
+
+                <div class="project-overlay">
+
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                    <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+
+                </div>
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>✅ To-Do List App</h3>
+
+                <p>
+                    A dynamic task management application where users can add, complete and delete tasks.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+            </div>
+
+         </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMAGE/desktop-design RECIPE PAGE.jpg" alt="Recipe Page">
+
+                    <div class="project-overlay">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <h3>🍳 Recipe Page</h3>
+
+                    <p>
+                        A beautifully structured recipe page showcasing semantic HTML and responsive layouts.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMAGE/destkop-design social link.jpg" alt="Social Links Profile">
+                    <div class="project-overlay">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                
+
+                <div class="project-content">
+                    <h3>👤 Social Links Profile</h3>
+
+                    <p>
+                        A modern profile card with clean typography, hover effects and responsive design.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMAGE/desktop-design CONTACT FORM.jpg" alt="contact form">
+                    <div class="project-overlay">
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                    
+                </div>
+               
+
+                <div class="project-content">
+                    <h3>📩 Contact Form</h3>
+                    <p>
+                    A responsive contact form with clean validation and an intuitive user experience.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+       
     </section>
 
-    <section id="contact">
-      <h2>Get in Touch</h2>
-      <p>
-        Let’s dive into the tech world by collaborating to building something
-        amazing together.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:acttechworld@gmail.com">📧 acttechworld@gmail.com</a>
-        <a href="https://wa.me/2349020331591" target="_blank"
-          >📱 +2349020331591</a
-        >
-        <a href="https://x.com/DeeEbonite?t=57n63alasRWQC2TMaPW06g&s=09"
-          >X(formally known as twitter)</a
-        >
-        <a href="https://www.instagram.com/@action.mamma.">my instagram</a>
-        <a href="https://github.com/Act-D-Ebonite">GitHub</a>
-        <a
-          href="https://www.linkedin.com/in/comfort-tolulope-ajayi-717a5a365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          >Linkedin</a
-        >
-        <button>back to top</button>
-      </div>
+    <!-- <section id="testimonial" class="responses hidden">=======================================
+
+    </section> -->
+
+
+    <section id="contact" class="contact hidden">
+        <div class="contact-header">
+            <h2>Let's Work Together</h2>
+            <p> Have a project in mind or want to collaborate? I'd love to hear from you. </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p><i class="fas fa-envelope"></i><a href="mailto:acttechworld@gmail.com">acttechworld@gmail.com </a></p>
+                <p><i class="fas fa-phone"></i><a href="https://wa.me/2349020331591" target="_blank">+234 902 033 1951</a></p>
+                <p><i class="fas fa-location-dot"></i> Lagos, Ibadan, Nigeria. </p> 
+
+                <div class="social-links">
+                    <a href="https://x.com/DeeEbonite?t=57n63alasRWQC2TMaPW06g&s=09"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-x-twitter"></i> Twitter</a>
+
+                    <a href="https://www.linkedin.com/in/comfort-tolulope-ajayi-717a5a365/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin-in"> LinkedIn</i>
+                    </a>
+
+                    <a href="https://www.instagram.com/action.mamma/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"> Instagram</i>
+                    </a>
+
+                    <a href="https://github.com/Act-D-Ebonite"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"> Github</i>
+                    </a>
+
+                    
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contact-form">
+<input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Your Name"
+    required>
+
+<input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Email Address"
+    required>
+
+<textarea
+    id="message"
+    name="message"
+    rows="6"
+    placeholder="Write your message..."
+    required></textarea>
+                   <button type="submit">Send Message</button>
+                    <p id="formMessage"></p>
+            </form>
+        </div>
+
     </section>
 
-    <footer>© 2025 ACT TECH WORLD | Code. Create. Conquer.</footer>
+
+      <footer class="footer hidden">
+        <h2>ACT TECH WORLD</h2>
+        <p> Building responsive websites, modern interfaces and digital experiences.</p>
+        <div class="footer-links">
+            <a href="#Home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <hr>
+        <p class="copyright"> <strong> Code. Create. Conquer.  <br></strong> © 2024 ACT TECH WORLD  All Rights Reserved. </p>
+
+        </footer>  
+
+      <a href="#Home" class="back-to-top">↑</a>
+
+
+
+<script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script>
+    (function () {
+        emailjs.init({
+            publicKey: "zMRj8O4-n5l83Lubq",
+        });
+    })();
+</script>
+
+<script src="script.js">
+
+</script>
+
+
   </body>
+
 </html>
