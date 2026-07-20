@@ -660,7 +660,7 @@ flex-wrap: 1;
 }
 
 .footer{
-    border: 5px solid red !important;
+    /* border: 5px solid red !important; */
     min-height: 300px !important;
 }
 /* ===========================PROFESSIONAL POLISH=========================== */
