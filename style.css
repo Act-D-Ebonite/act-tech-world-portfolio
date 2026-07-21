@@ -896,7 +896,10 @@ body.light-mode .contact-info p:nth-of-type(2) a:hover {
 body.light-mode .project-content h3 {
     color: #000000; /* Light Mode */
 }
-
+/* =============================================================================================================================================================== */
+body.light-mode #footer a:hover {
+    color: #ff9f43; /* Light Mode */
+}
 
 /* 4. Hamburger icon */
 .menu-toggle {
@@ -907,6 +910,157 @@ body.light-mode .menu-toggle {
     color: #000000; /* Light Mode */
 }
 
+/* ================================
+   HAMBURGER MENU ICON
+================================ */
+
+/* Dark Mode */
+body.dark-mode .menu-toggle {
+    color: #ffffff;
+}
+
+/* Light Mode */
+body.light-mode .menu-toggle {
+    color: #000000;
+}
+
+/* Default - if dark-mode class is not added to body */
+body:not(.light-mode) .menu-toggle {
+    color: #ffffff;
+}
+
+/* Hover effect */
+.menu-toggle:hover {
+    color: #ffd54f;
+}
+
+
+/* ================================
+   THEME TOGGLE
+================================ */
+
+/* Theme toggle is always visible */
+#theme-toggle,
+.theme-toggle {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark Mode - White toggle */
+body.dark-mode #theme-toggle,
+body.dark-mode #theme-toggle i,
+body.dark-mode .theme-toggle,
+body.dark-mode .theme-toggle i {
+    color: #ffffff;
+}
+
+/* Light Mode - Black toggle */
+body.light-mode #theme-toggle,
+body.light-mode #theme-toggle i,
+body.light-mode .theme-toggle,
+body.light-mode .theme-toggle i {
+    color: #000000;
+}
+
+/* Hover - Gold */
+#theme-toggle:hover,
+#theme-toggle:hover i,
+.theme-toggle:hover,
+.theme-toggle:hover i {
+    color: #ffd54f;
+}
+
+
+/* ================================
+   MOBILE NAVIGATION
+================================ */
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        background-color: #0f172a;
+    }
+
+    /* Mobile menu links remain white in both modes */
+    body.light-mode .nav-links a,
+    body.dark-mode .nav-links a {
+        color: #ffffff;
+    }
+
+    /* Mobile menu link hover */
+    .nav-links a:hover {
+        color: #ffd54f;
+    }
+
+    /* Mobile menu toggle */
+    body.dark-mode .menu-toggle {
+        color: #ffffff;
+    }
+
+    body.light-mode .menu-toggle {
+        color: #000000;
+    }
+
+    .menu-toggle:hover {
+        color: #ffd54f;
+    }
+}
+
+
+/* ================================
+   DESKTOP THEME TOGGLE
+================================ */
+
+@media (min-width: 769px) {
+
+    /* Always visible on desktop */
+    #theme-toggle,
+    .theme-toggle {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Light Mode - Black */
+    body.light-mode #theme-toggle,
+    body.light-mode #theme-toggle i,
+    body.light-mode .theme-toggle,
+    body.light-mode .theme-toggle i {
+        color: #000000;
+    }
+
+    /* Dark Mode - White */
+    body.dark-mode #theme-toggle,
+    body.dark-mode #theme-toggle i,
+    body.dark-mode .theme-toggle,
+    body.dark-mode .theme-toggle i {
+        color: #ffffff;
+    }
+}
+
+
+/* ================================
+   LIGHT MODE NAV LINK HOVER
+================================ */
+
+body.light-mode .nav-links a:hover {
+    color: #ffd54f;
+}
+
+
+/* ================================
+   DARK MODE NAV LINK HOVER
+================================ */
+
+body.dark-mode .nav-links a:hover {
+    color: #ffd54f;
+}
 /* ==========================RESPONSIVENESS==================================== */
 /* ===========================LARGE TABLETS & SMALL LAPTOPS=========================== */
 
