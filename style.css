@@ -935,9 +935,7 @@ body:not(.light-mode) .menu-toggle {
 }
 
 
-/* ================================
-   THEME TOGGLE
-================================ */
+/* ===============================  THEME TOGGLE================================ */
 
 /* Theme toggle is always visible */
 #theme-toggle,
@@ -977,9 +975,7 @@ body.light-mode .theme-toggle i {
 }
 
 
-/* ================================
-   MOBILE NAVIGATION
-================================ */
+/* ================================MOBILE NAVIGATION================================ */
 
 @media (max-width: 768px) {
 
@@ -1013,9 +1009,7 @@ body.light-mode .theme-toggle i {
 }
 
 
-/* ================================
-   DESKTOP THEME TOGGLE
-================================ */
+/* ================================DESKTOP THEME TOGGLE================================ */
 
 @media (min-width: 769px) {
 
@@ -1045,18 +1039,13 @@ body.light-mode .theme-toggle i {
 }
 
 
-/* ================================
-   LIGHT MODE NAV LINK HOVER
-================================ */
+/* ================================ LIGHT MODE NAV LINK HOVER================================ */
 
 body.light-mode .nav-links a:hover {
     color: #ffd54f;
 }
 
-
-/* ================================
-   DARK MODE NAV LINK HOVER
-================================ */
+/* ================================DARK MODE NAV LINK HOVER================================ */
 
 body.dark-mode .nav-links a:hover {
     color: #ffd54f;
